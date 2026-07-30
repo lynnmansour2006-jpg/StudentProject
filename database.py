@@ -8,6 +8,6 @@ name TEXT NOT NULL,
 age INTEGER,
 email TEXT)
 """)
-connection.commit
-connection.close
+connection.commit()
+connection.close()
 print("database created")
